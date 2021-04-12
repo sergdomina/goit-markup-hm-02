@@ -16,14 +16,36 @@
 body {
     font-family: var(--main-font);
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--maint-body-text);
 }
+.h-s{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
 
+    letter-spacing: 0.03em;
+
+    color: var(--second-title) ;
+
+}
+.h-m{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.h-m-p{
+    color: #2196F3;
+}
 .link {
     color: inherit;
     text-decoration: none;
@@ -48,17 +70,21 @@ body {
 }
 
 .section-title{
-    font-family: var(--second-title);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: 42px;
+    text-align: center;
     letter-spacing: 0.03em;
+
+    color: #212121;
 }
 .btn{
     font-family: Roboto;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
+line-height: 1.87;
 
 display: flex;
 align-items: center;
@@ -108,5 +134,47 @@ color: var(--maint-body-text);
     color: var(--main-title-text);
 }
 .web{
-    color: var(--accent-blue);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+    
+}
+.f-web{
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.f-s{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+.f-mt{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
