@@ -57,7 +57,6 @@ body {
 
 .list {
     list-style: none;
-
 }
 
 .page-t{
@@ -68,7 +67,11 @@ body {
     letter-spacing: 0.06em;
     color:var(--main-title-text);
 }
-
+.fsc{
+    background-color: var(--first-dark-bg);
+    color: var(--main-title-text); 
+    text-align: center
+}
 .section-title{
     font-family: Roboto;
     font-style: normal;
@@ -80,36 +83,62 @@ body {
 
     color: #212121;
 }
-.btn{
+.button{
     font-family: Roboto;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
-
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #2196F3;
 }
-.btn:hover,
-.btn:focus {
-    color: var(--alt);
-    background-color: var(--accent-blue);
+
+.button:hover,
+.button:focus{
+    background-color: #757575;
+    align-content: center;
 }
+
 .h3{
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: var(--second-title);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title);
 }
+.h32{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.sixteengrey{
+    ont-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
 .h3p{
 font-size: 14px;
 line-height: 1.71;
@@ -118,14 +147,14 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: var(--maint-body-text);
-
 }
+
 .li-align{
     text-align: center;
 }
 .f-s-b{
     background-color: var(--first-dark-bg);
-    color: var(--main-title-text);
+    color: var(--main-title-text);   
 }
 .s-s-b{
     background-color: var(--second-white-bg);
@@ -177,4 +206,32 @@ line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.kind{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 4px;
+}
+.kind-bg-cl{
+    background-color: #F5F4FA ;
+}
+.kind-vse{
+    color: var(--second-white-bg);
+    background-color: var(--accent-blue);
+    padding: 13px 30px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.menu{
+    list-style: none;
 }
