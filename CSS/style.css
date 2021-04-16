@@ -4,6 +4,7 @@
     --maint-body-text: #757575;
     --accent-blue: #2196F3;
     --alt: #494949;
+    --kind-bg: #F5F4FA;
 
 
     --first-dark-bg: #2F303A;
@@ -32,7 +33,6 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--second-title) ;
-
 }
 .h-m{
     font-family: Roboto;
@@ -41,10 +41,10 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--second-title);
 }
 .h-m-p{
-    color: #2196F3;
+    color: var(--accent-blue);
 }
 .link {
     color: inherit;
@@ -81,7 +81,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--second-title);
 }
 .button{
     font-family: Roboto;
@@ -92,7 +92,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
-    background-color: #2196F3;
+    background-color:var(--accent-blue);
 }
 
 .button:hover,
@@ -111,6 +111,18 @@ body {
     text-transform: uppercase;
     color: var(--second-title);
 }
+.h3s{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+    
+    letter-spacing: 0.06em;
+    
+    color: var(--second-title);    
+}
 .h32{
     font-family: Roboto;
 font-style: normal;
@@ -122,7 +134,7 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--second-title);
 }
 
 .sixteengrey{
@@ -136,7 +148,7 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--maint-body-text);
 }
 
 .h3p{
@@ -172,7 +184,7 @@ color: var(--maint-body-text);
     
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--accent-blue);
     
 }
 .f-web{
@@ -182,7 +194,7 @@ font-weight: bold;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--accent-blue);
 }
 .f-s{
     font-family: Raleway;
@@ -194,7 +206,7 @@ color: #2196F3;
 
     letter-spacing: 0.03em;
 
-    color: #FFFFFF;
+    color: var(--main-title-text);
 
 }
 .f-mt{
@@ -222,7 +234,7 @@ color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
 }
 .kind-bg-cl{
-    background-color: #F5F4FA ;
+    background-color: var(--kind-bg) ;
 }
 .kind-vse{
     color: var(--second-white-bg);
